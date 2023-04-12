@@ -1,0 +1,47 @@
+body {
+    font:15px;
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    color: #F9FEFF;
+
+}
+
+div {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin-right: 30px;
+}
+
+#weight {
+    width: 70px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#sessions {
+    width: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#intense {
+    width: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+#result {
+    width: 60px;
+    border-radius: 5px;
+    text-align: center;
+
+}

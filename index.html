@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calorie Setter</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+        <h1>find your Total Daily Energy Expendenture (TDEE)</h1>
+        <hr>
+        <p id="p1">What is this based off of? This formula is called
+            the Aragon formula a simple formula of
+            calories = TBW * (number of training sessions a week + ITF),
+            TBW = Total Bodyweight and ITF = Itensity Training Factor.
+            The ratios are as follows.
+        </p>
+        <ul>
+            <li>Fatloss = BW * 12-14</li>
+            <li>Maintenance = BW * 15-16</li>
+            <li>Weight Gain = BW * 17+</li>
+        </ul>
+        
+        <p>First your weight in pounds.</p>
+        <input type="number" placeholder="in pounds" id="weight"><span>lbs.</span>
+        <p>Number of sessions weekly</p>
+        <input placeholder="0" id="sessions">
+        <p>What is your Intensity excercise factor male(9,10,11) or female(8,9,10)</p>
+        <input placeholder="0" id="intense">
+        <br>
+        <button type="submit" id="calculate">Calculate!</button>
+        <hr>
+        <input id="result"><span>Calories</span>
+        </div>
+
+        <script src="index.js" async defer></script>
+    </body>
+</html>
